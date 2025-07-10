@@ -8,7 +8,7 @@
     <link href="src/styles.css" rel="stylesheet" />
   </head>
   <body class="bg-gradient-to-br from-gray-50 to-gray-100">
-    <div class="max-w-7xl mx-auto px-4 py-4">
+    <div class="max-w-5xl mx-auto px-4 py-4">
       <!-- Header with Contact Info -->
       <nav class="mb-4">
         <div class="card flex flex-col items-center text-center">
@@ -56,383 +56,295 @@
       </nav>
 
       <!-- Main Content -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
-        <!-- First Column -->
-        <div class="space-y-4">
-          <!-- Introduction -->
-          <div class="card">
-            <h2 class="heading-2">Hello!</h2>
-            <p class="text-sm text-gray-600 leading-relaxed">
-              Software Engineer who loves turning complex problems into elegant
-              solutions. Whether I'm building developer tools, architecting
-              microservices, or mentoring fellow developers, I'm passionate
-              about creating systems that make a real impact. Always excited to
-              learn new technologies and share knowledge with the community.
+      <div class="mx-auto">
+        <!-- Introduction -->
+        <div class="card mb-4">
+          <h2 class="heading-2">Hello!</h2>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Software Engineer who loves turning complex problems into elegant
+            solutions. Whether I'm building developer tools, architecting
+            microservices, or mentoring fellow developers, I'm passionate about
+            creating systems that make a real impact. Always excited to learn
+            new technologies and share knowledge with the community.
+          </p>
+        </div>
+
+        <!-- Experience -->
+        <div class="card mb-4">
+          <h2 class="heading-2">Experience</h2>
+
+          <!-- Qumulex -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="heading-3">Team Lead Engineer - Backend</h3>
+              <span class="text-sm text-gray-600">May 2020 - Present</span>
+            </div>
+            <p class="timeline-location">Qumulex, Fishers, IN</p>
+            <ul class="list-content">
+              <li>
+                Built AI pipelines by allowing customer input to find releveant
+                events and then using LLMs to generate a summary of the event
+              </li>
+              <li>
+                Built a time-series data storage system that reduced video
+                metadata query times by 60% and storage costs by 80% (5TB to
+                1TB) by converting row-based storage to a bit system
+              </li>
+              <li>
+                Scaled system throughput from 100 to 5000 requests per second
+                while improving queue reliability by 25%
+              </li>
+              <li>
+                Maintainer Kubernetes manifests and configurations to enable
+                rapid development and deployment of new features across multiple
+                environments (cloud, on-premise, and edge devices)
+              </li>
+              <li>
+                Developed Kubernetes-based developer tooling that reduced
+                environment setup time from days to minutes, including a CLI for
+                direct pod-based development and standardized container
+                environments
+              </li>
+              <li>
+                Created a nodejs framework that enabled rapid microservice
+                deployment, reduced code inconsistencies, and accelerated
+                developer velocity through standardized project patterns
+              </li>
+            </ul>
+          </div>
+
+          <!-- Indiana Interactive -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="heading-3">Team Lead - Senior Developer</h3>
+              <span class="text-sm text-gray-600"
+                >November 2017 - May 2020</span
+              >
+            </div>
+            <p class="timeline-location">
+              Indiana Interactive, Indianapolis, IN
+            </p>
+            <ul class="list-content">
+              <li>
+                Transformed deployment process from manual builds (hours) to
+                automated CI/CD pipelines (minutes), significantly improving
+                testability and reducing deployment errors
+              </li>
+              <li>
+                Maintained and improved developer tools and frameworks to
+                enhance developer experience
+              </li>
+              <li>
+                Architected a new extensible framework enabling developers to
+                build customizable applications
+              </li>
+              <li>
+                Led teams in building web applications, ensuring high quality
+                and timely delivery
+              </li>
+              <li>
+                Designed and developed complex web applications to improve user
+                interactions
+              </li>
+            </ul>
+          </div>
+
+          <!-- Force Communications -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="heading-3">Senior Software Engineer</h3>
+              <span class="text-sm text-gray-600"
+                >Feb 2016 - November 2017</span
+              >
+            </div>
+            <p class="timeline-location">
+              Force Communications, Indianapolis, IN
+            </p>
+            <ul class="list-content">
+              <li>
+                Modernized deployment infrastructure by migrating from manual
+                FTP to automated GitLab pipelines, improving deployment
+                reliability and reducing human error
+              </li>
+              <li>
+                Delivered multiple client projects with high reliability and
+                minimal production issues
+              </li>
+              <li>
+                Built a reusable API framework that accelerated development of
+                new features
+              </li>
+              <li>
+                Enhanced client satisfaction through direct collaboration and
+                rapid iteration
+              </li>
+            </ul>
+          </div>
+
+          <!-- Patronpath -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="heading-3">Software Engineer</h3>
+              <span class="text-sm text-gray-600"
+                >December 2014 - February 2016</span
+              >
+            </div>
+            <p class="timeline-location">
+              Patronpath / Verge Ventures, Indianapolis, IN
+            </p>
+            <ul class="list-content">
+              <li>
+                Launched a new online ordering platform handling thousands of
+                orders daily with high reliability
+              </li>
+              <li>
+                Improved order processing efficiency through implementation of
+                optimized workflows
+              </li>
+              <li>
+                Successfully migrated multiple restaurants from legacy platform
+                with minimal disruption
+              </li>
+            </ul>
+          </div>
+
+          <!-- NTSupply -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="heading-3">Web Developer</h3>
+              <span class="text-sm text-gray-600"
+                >May 2014 - December 2014</span
+              >
+            </div>
+            <p class="timeline-location">NTSupply, Greenwood, IN</p>
+            <ul class="list-content">
+              <li>
+                Built a custom CMS that streamlined content updates for multiple
+                clients
+              </li>
+              <li>
+                Improved email campaign effectiveness through enhanced targeting
+                and automation
+              </li>
+              <li>
+                Optimized web applications to achieve significant performance
+                improvements
+              </li>
+            </ul>
+          </div>
+
+          <!-- Purdue University -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="heading-3">Web Developer</h3>
+              <span class="text-sm text-gray-600"
+                >September 2013 - May 2014</span
+              >
+            </div>
+            <p class="timeline-location">
+              Purdue University – ITaP Research Computing, West Lafayette, IN
+            </p>
+            <ul class="list-content">
+              <li>
+                Developed JavaScript tools that enhanced data visualization for
+                driNET.hubzero.org
+              </li>
+              <li>
+                Improved system performance through implementation of
+                client-side caching
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Additional Experience -->
+        <div class="card mb-4">
+          <h2 class="heading-2 mb-6">Additional Experience</h2>
+          <!-- Envision Center -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="heading-3">Web Developer</h3>
+              <span class="text-sm text-gray-600"
+                >September 2013 - May 2014</span
+              >
+            </div>
+            <p class="timeline-location">Envision Center, West Lafayette, IN</p>
+            <ul class="list-content">
+              <li>
+                Built interactive maps that improved data accessibility for
+                research users
+              </li>
+              <li>
+                Enhanced map performance through optimization of ArcGIS
+                JavaScript implementation
+              </li>
+            </ul>
+          </div>
+          <!-- ResNet -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="heading-3">Developer → Senior Developer</h3>
+              <span class="text-sm text-gray-600"
+                >August 2009 - August 2013</span
+              >
+            </div>
+            <p class="timeline-location">ResNet, West Lafayette, IN</p>
+            <ul class="list-content">
+              <li>
+                Led complete rewrite of web applications that significantly
+                improved user experience
+              </li>
+              <li>
+                Reduced system maintenance overhead through implementation of
+                automated monitoring
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="card mb-4">
+          <h2 class="heading-2">Education</h2>
+          <div>
+            <h3 class="heading-3">Purdue University - School of Engineering</h3>
+            <p class="text-sm text-gray-600">West Lafayette, IN | 2014</p>
+            <p class="text-sm text-gray-600 mt-1">
+              Bachelor of Science, Industrial Engineering
             </p>
           </div>
+        </div>
 
-          <!-- Skills -->
-          <div class="card">
-            <h2 class="heading-2 mb-4">Skills</h2>
-            <div class="space-y-4">
-              <!-- Programming Languages -->
-              <div>
-                <h3 class="heading-3 mb-2">Programming Languages</h3>
-                <div class="skill-tags">
-                  <span class="skill-tag">TypeScript</span>
-                  <span class="skill-tag">Node.js</span>
-                  <span class="skill-tag">Python</span>
-                  <span class="skill-tag">C# / .NET</span>
-                  <span class="skill-tag">PHP</span>
-                </div>
-              </div>
-
-              <!-- DevOps & Cloud -->
-              <div>
-                <h3 class="heading-3 mb-2">DevOps & Cloud</h3>
-                <div class="skill-tags">
-                  <span class="skill-tag">GCP</span>
-                  <span class="skill-tag">Kubernetes</span>
-                  <span class="skill-tag">Docker</span>
-                  <span class="skill-tag">CI/CD</span>
-                </div>
-              </div>
-
-              <!-- Databases -->
-              <div>
-                <h3 class="heading-3 mb-2">Databases</h3>
-                <div class="skill-tags">
-                  <span class="skill-tag">PostgreSQL</span>
-                  <span class="skill-tag">MongoDB</span>
-                  <span class="skill-tag">MySQL</span>
-                  <span class="skill-tag">Redis</span>
-                </div>
-              </div>
-
-              <!-- Architecture & Design -->
-              <div>
-                <h3 class="heading-3 mb-2">
-                  Architecture, Design & Integration
-                </h3>
-                <div class="skill-tags">
-                  <span class="skill-tag">High-Scale Systems</span>
-                  <span class="skill-tag">High Availability</span>
-                  <span class="skill-tag">Microservices</span>
-                  <span class="skill-tag">Event-Driven Architecture</span>
-                  <span class="skill-tag">Domain-Driven Design</span>
-                  <span class="skill-tag">System Design</span>
-                  <span class="skill-tag">API Design</span>
-                  <span class="skill-tag">GraphQL</span>
-                  <span class="skill-tag">gRPC</span>
-                  <span class="skill-tag">WebSockets</span>
-                  <span class="skill-tag">WebRTC</span>
-                  <span class="skill-tag">Serverless</span>
-                </div>
-              </div>
-
-              <!-- Development Practices -->
-              <div>
-                <h3 class="heading-3 mb-2">Development Practices</h3>
-                <div class="skill-tags">
-                  <span class="skill-tag">Agile/Scrum</span>
-                  <span class="skill-tag">TDD</span>
-                  <span class="skill-tag">Git</span>
-                  <span class="skill-tag">Code Review</span>
-                  <span class="skill-tag">Technical Leadership</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Education -->
-          <div class="card">
-            <h2 class="heading-2">Education</h2>
+        <!-- Open Source & Projects -->
+        <div class="card mb-4">
+          <h2 class="heading-2">Open Source & Projects</h2>
+          <div class="space-y-3">
             <div>
-              <h3 class="heading-3">
-                Purdue University - School of Engineering
+              <h3 class="heading-3 flex items-center gap-2">
+                <div class="flex items-center gap-2">
+                  <span>5stack.gg</span>
+                  <a
+                    href="https://5stack.gg"
+                    class="hover:text-blue-800 transition-colors duration-200 group"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span class="icon icon-globe icon-sm"></span>
+                  </a>
+                  <a
+                    href="https://github.com/5stackgg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+                  >
+                    <span class="icon icon-github icon-sm"></span>
+                  </a>
+                </div>
               </h3>
-              <p class="text-sm text-gray-600">West Lafayette, IN | 2014</p>
-              <p class="text-sm text-gray-600 mt-1">
-                Bachelor of Science, Industrial Engineering
+              <p class="text-sm text-gray-600">
+                A passion project born from my love of competitive gaming and
+                tech. Built this platform to keep learning, experimenting, and
+                having fun.
               </p>
-            </div>
-          </div>
-
-          <!-- Open Source & Projects -->
-          <div class="card">
-            <h2 class="heading-2">Open Source & Projects</h2>
-            <div class="space-y-3">
-              <div>
-                <h3 class="heading-3 flex items-center gap-2">
-                  <div class="flex items-center gap-2">
-                    <span>5stack.gg</span>
-                    <a
-                      href="https://5stack.gg"
-                      class="hover:text-blue-800 transition-colors duration-200 group"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span class="icon icon-globe icon-sm"></span>
-                    </a>
-                    <a
-                      href="https://github.com/5stackgg"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="text-gray-600 hover:text-gray-900 transition-colors duration-200"
-                    >
-                      <span class="icon icon-github icon-sm"></span>
-                    </a>
-                  </div>
-                </h3>
-                <p class="text-sm text-gray-600">
-                  A passion project born from my love of competitive gaming and
-                  tech. Built this platform to keep learning, experimenting, and
-                  having fun.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Column - Main Experience Card Only -->
-        <div class="md:col-span-2">
-          <div class="card">
-            <h2 class="heading-2">Experience</h2>
-
-            <!-- Qumulex -->
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <h3 class="heading-3">Team Lead Engineer - Backend</h3>
-                <span class="text-sm text-gray-600">May 2020 - Present</span>
-              </div>
-              <p class="timeline-location">Qumulex, Fishers, IN</p>
-              <ul class="list-content">
-                <li>
-                  Built AI pipelines by allowing customer input to find
-                  releveant events and then using LLMs to generate a summary of
-                  the event
-                </li>
-                <li>
-                  Built a time-series data storage system that reduced video
-                  metadata query times by 60% and storage costs by 80% (5TB to
-                  1TB) by converting row-based storage to a bit system
-                </li>
-                <li>
-                  Scaled system throughput from 100 to 5000 requests per second while improving
-                  queue reliability by 25%
-                </li>
-                <li>
-                  Maintainer Kubernetes manifests and configurations to enable
-                  rapid development and deployment of new features across
-                  multiple environments (cloud, on-premise, and edge devices)
-                </li>
-                <li>
-                  Developed Kubernetes-based developer tooling that reduced
-                  environment setup time from days to minutes, including a CLI
-                  for direct pod-based development and standardized container
-                  environments
-                </li>
-                <li>
-                  Created a nodejs framework that enabled rapid microservice
-                  deployment, reduced code inconsistencies, and accelerated
-                  developer velocity through standardized project patterns
-                </li>
-              </ul>
-            </div>
-
-            <!-- Indiana Interactive -->
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <h3 class="heading-3">
-                  Team Lead - Senior Javascript Developer
-                </h3>
-                <span class="text-sm text-gray-600"
-                  >November 2017 - May 2020</span
-                >
-              </div>
-              <p class="timeline-location">
-                Indiana Interactive, Indianapolis, IN
-              </p>
-              <ul class="list-content">
-                <li>
-                  Transformed deployment process from manual builds (hours) to
-                  automated CI/CD pipelines (minutes), significantly improving
-                  testability and reducing deployment errors
-                </li>
-                <li>
-                  Maintained and improved developer tools and frameworks to
-                  enhance developer experience
-                </li>
-                <li>
-                  Architected a new extensible framework enabling developers to
-                  build customizable applications
-                </li>
-                <li>
-                  Led teams in building web applications, ensuring high quality
-                  and timely delivery
-                </li>
-                <li>
-                  Designed and developed complex web applications to improve
-                  user interactions
-                </li>
-              </ul>
-            </div>
-
-            <!-- Force Communications -->
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <h3 class="heading-3">Senior Software Engineer</h3>
-                <span class="text-sm text-gray-600"
-                  >Feb 2016 - November 2017</span
-                >
-              </div>
-              <p class="timeline-location">
-                Force Communications, Indianapolis, IN
-              </p>
-              <ul class="list-content">
-                <li>
-                  Modernized deployment infrastructure by migrating from manual
-                  FTP to automated GitLab pipelines, improving deployment
-                  reliability and reducing human error
-                </li>
-                <li>
-                  Delivered multiple client projects with high reliability and
-                  minimal production issues
-                </li>
-                <li>
-                  Built a reusable API framework that accelerated development of
-                  new features
-                </li>
-                <li>
-                  Enhanced client satisfaction through direct collaboration and
-                  rapid iteration
-                </li>
-              </ul>
-            </div>
-
-            <!-- Patronpath -->
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <h3 class="heading-3">Software Engineer</h3>
-                <span class="text-sm text-gray-600"
-                  >December 2014 - February 2016</span
-                >
-              </div>
-              <p class="timeline-location">
-                Patronpath / Verge Ventures, Indianapolis, IN
-              </p>
-              <ul class="list-content">
-                <li>
-                  Launched a new online ordering platform handling thousands of
-                  orders daily with high reliability
-                </li>
-                <li>
-                  Improved order processing efficiency through implementation of
-                  optimized workflows
-                </li>
-                <li>
-                  Successfully migrated multiple restaurants from legacy
-                  platform with minimal disruption
-                </li>
-              </ul>
-            </div>
-
-            <!-- NTSupply -->
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <h3 class="heading-3">Web Developer</h3>
-                <span class="text-sm text-gray-600"
-                  >May 2014 - December 2014</span
-                >
-              </div>
-              <p class="timeline-location">NTSupply, Greenwood, IN</p>
-              <ul class="list-content">
-                <li>
-                  Built a custom CMS that streamlined content updates for
-                  multiple clients
-                </li>
-                <li>
-                  Improved email campaign effectiveness through enhanced
-                  targeting and automation
-                </li>
-                <li>
-                  Optimized web applications to achieve significant performance
-                  improvements
-                </li>
-              </ul>
-            </div>
-
-            <!-- Purdue University -->
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <h3 class="heading-3">Web Developer</h3>
-                <span class="text-sm text-gray-600"
-                  >September 2013 - May 2014</span
-                >
-              </div>
-              <p class="timeline-location">
-                Purdue University – ITaP Research Computing, West Lafayette, IN
-              </p>
-              <ul class="list-content">
-                <li>
-                  Developed JavaScript tools that enhanced data visualization
-                  for driNET.hubzero.org
-                </li>
-                <li>
-                  Improved system performance through implementation of
-                  client-side caching
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Second Row -->
-        <div class="md:col-span-1"></div>
-        <div class="md:col-span-2">
-          <div class="card">
-            <h2 class="heading-2 mb-6">Additional Experience</h2>
-            <!-- Envision Center -->
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <h3 class="heading-3">Web Developer</h3>
-                <span class="text-sm text-gray-600"
-                  >September 2013 - May 2014</span
-                >
-              </div>
-              <p class="timeline-location">
-                Envision Center, West Lafayette, IN
-              </p>
-              <ul class="list-content">
-                <li>
-                  Built interactive maps that improved data accessibility for
-                  research users
-                </li>
-                <li>
-                  Enhanced map performance through optimization of ArcGIS
-                  JavaScript implementation
-                </li>
-              </ul>
-            </div>
-            <!-- ResNet -->
-            <div class="timeline-item">
-              <div class="timeline-header">
-                <h3 class="heading-3">Developer → Senior Developer</h3>
-                <span class="text-sm text-gray-600"
-                  >August 2009 - August 2013</span
-                >
-              </div>
-              <p class="timeline-location">ResNet, West Lafayette, IN</p>
-              <ul class="list-content">
-                <li>
-                  Led complete rewrite of web applications that significantly
-                  improved user experience
-                </li>
-                <li>
-                  Reduced system maintenance overhead through implementation of
-                  automated monitoring
-                </li>
-              </ul>
             </div>
           </div>
         </div>

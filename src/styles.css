@@ -114,6 +114,10 @@ body {
     box-shadow: none !important;
     border: 1px solid #e0e0e0 !important;
   }
+  .print-spacer {
+    display: block;
+    height: 0.25rem;
+  }
 }
 
 /* Icons */
